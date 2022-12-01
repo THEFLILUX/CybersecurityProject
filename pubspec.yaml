@@ -1,0 +1,41 @@
+name: chat_frontend
+description: Frontend de chat web encriptado punto a punto
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: 3.3.8
+
+dependencies:
+  bloc: ^8.1.0
+  clipboard: ^0.1.3
+  cryptography: ^2.0.5
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_chat_ui: ^1.6.6
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^5.1.10
+  intl: ^0.17.0
+  json_annotation: ^4.7.0
+  jwt_decoder: ^2.0.1
+  shared_preferences: ^2.0.15
+  uuid: ^3.0.7
+
+dev_dependencies:
+  bloc_test: ^9.1.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+assets:
+  - .env
